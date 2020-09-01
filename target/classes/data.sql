@@ -1,14 +1,6 @@
 DROP TABLE IF EXISTS billionaires;
 DROP TABLE IF EXISTS cliente;
  
-CREATE TABLE billionaires (
-  id INT AUTO_INCREMENT  PRIMARY KEY,
-  first_name VARCHAR(250) NOT NULL,
-  last_name VARCHAR(250) NOT NULL,
-  career VARCHAR(250) DEFAULT NULL
-);
- 
-
 
 CREATE TABLE cliente (
   id INT AUTO_INCREMENT  PRIMARY KEY,
@@ -21,13 +13,6 @@ CREATE TABLE cliente (
 );
 
 
- 
-INSERT INTO billionaires (first_name, last_name, career) VALUES
-  ('Aliko', 'Dangote', 'Billionaire Industrialist'),
-  ('Bill', 'Gates', 'Billionaire Tech Entrepreneur'),
-  ('Folrunsho', 'Alakija', 'Billionaire Oil Magnate');
-  
-  
   
   INSERT INTO cliente (nombre, apellido_paterno, apellido_materno, fecha_nacimiento, ingresos, codigo_postal ) VALUES
   ('dua', 'lipa', 'singer', '1890-01-01', 3323, 12343),
