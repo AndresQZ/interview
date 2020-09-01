@@ -14,11 +14,9 @@ CREATE TABLE cliente (
 
   
   INSERT INTO cliente (nombre, apellido_paterno, apellido_materno, fecha_nacimiento, ingresos, codigo_postal ) VALUES
-  ('dua', 'lipa', 'singer', '1890-01-01', 3323, 12343),
+  ('Dua', 'Lipa', 'singer', '1995-08-22', 3323, 12343),
   ('Bill', 'Gates', 'microsoft', '1980-01-01', 800000, 90230),
-  ('Elon', 'Musk', 'x-space', '1971-10-01', 800000, 345673),
-  ('Bono', '', 'u2', '1980-01-01', 2323, 938382),
-  ('jeff', 'Bezoz', 'amazon', '1964-01-01', 33800000, 121234),
-  ('Alice', 'Keys', 'singer', '1984-01-01', 73723, 123656);
-
-
+  ('Elon', 'Reeve', 'Musk', '1971-06-28', 800000, 345673),
+  ('Madonna', 'Veronica', 'Ciccone', '1958-08-16', 2323, 938382),
+  ('Jeff', 'Preston', 'Bezos', '1964-01-12', 338000.9, 121234),
+  ('Alice', 'Keys', 'Cook', '1981-01-25', 73723, 123656);
