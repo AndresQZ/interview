@@ -25,8 +25,7 @@ public class InterviewApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:4200" , "http://localhost:4300" , "http://localhost:4400",
-						"http://localhost:4500")
+				registry.addMapping("/**").allowedOrigins("*")
 				.allowedMethods("PUT", "DELETE" , "POST", "GET");
 
 			}
